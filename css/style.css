@@ -1,0 +1,56 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+    width: 1250px;
+    height: auto;
+}
+
+.product {
+     height: 250px;
+     width: auto;
+}
+
+.login-form {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 450px;
+	height: 210px;
+	border-radius: 3px;
+}
+
+/* Oh Snap */
+#ohsnap {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  z-index:9999;
+}
+
+.alert-red {
+  color: white;
+  background-color: #DA4453;
+}
+
+.alert-green {
+  color: white;
+  background-color: #37BC9B;
+}
+
+/*template*/
+#bg-img {
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
